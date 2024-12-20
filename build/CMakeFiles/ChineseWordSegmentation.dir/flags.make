@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/include
+CXX_INCLUDES = -I/mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/include
 
 CXX_FLAGS = -std=gnu++17
 

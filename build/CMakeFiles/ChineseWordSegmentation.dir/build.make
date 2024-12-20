@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation
+CMAKE_SOURCE_DIR = /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/build
+CMAKE_BINARY_DIR = /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ChineseWordSegmentation.dir/depend.make
@@ -72,58 +72,58 @@ include CMakeFiles/ChineseWordSegmentation.dir/flags.make
 CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o: CMakeFiles/ChineseWordSegmentation.dir/flags.make
 CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o: ../src/Dictionary.cpp
 CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o: CMakeFiles/ChineseWordSegmentation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o -MF CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o.d -o CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o -c /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Dictionary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o -MF CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o.d -o CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o -c /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Dictionary.cpp
 
 CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Dictionary.cpp > CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Dictionary.cpp > CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.i
 
 CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Dictionary.cpp -o CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Dictionary.cpp -o CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.s
 
 CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.o: CMakeFiles/ChineseWordSegmentation.dir/flags.make
 CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.o: ../src/Graph.cpp
 CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.o: CMakeFiles/ChineseWordSegmentation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.o -MF CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.o.d -o CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.o -c /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.o -MF CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.o.d -o CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.o -c /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Graph.cpp
 
 CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Graph.cpp > CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Graph.cpp > CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.i
 
 CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Graph.cpp -o CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Graph.cpp -o CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.s
 
 CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.o: CMakeFiles/ChineseWordSegmentation.dir/flags.make
 CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.o: ../src/Segmenter.cpp
 CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.o: CMakeFiles/ChineseWordSegmentation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.o -MF CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.o.d -o CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.o -c /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Segmenter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.o -MF CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.o.d -o CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.o -c /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Segmenter.cpp
 
 CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Segmenter.cpp > CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Segmenter.cpp > CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.i
 
 CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Segmenter.cpp -o CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Segmenter.cpp -o CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.s
 
 CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o: CMakeFiles/ChineseWordSegmentation.dir/flags.make
 CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o: CMakeFiles/ChineseWordSegmentation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o -MF CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o.d -o CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o -c /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o -MF CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o.d -o CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o -c /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/main.cpp
 
 CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/main.cpp > CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/main.cpp > CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.i
 
 CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/main.cpp -o CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/main.cpp -o CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.s
 
 # Object files for target ChineseWordSegmentation
 ChineseWordSegmentation_OBJECTS = \
@@ -141,7 +141,7 @@ ChineseWordSegmentation: CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cp
 ChineseWordSegmentation: CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o
 ChineseWordSegmentation: CMakeFiles/ChineseWordSegmentation.dir/build.make
 ChineseWordSegmentation: CMakeFiles/ChineseWordSegmentation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ChineseWordSegmentation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ChineseWordSegmentation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ChineseWordSegmentation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/ChineseWordSegmentation.dir/clean:
 .PHONY : CMakeFiles/ChineseWordSegmentation.dir/clean
 
 CMakeFiles/ChineseWordSegmentation.dir/depend:
-	cd /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/build /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/build /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/build/CMakeFiles/ChineseWordSegmentation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/build /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/build /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/build/CMakeFiles/ChineseWordSegmentation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ChineseWordSegmentation.dir/depend
 

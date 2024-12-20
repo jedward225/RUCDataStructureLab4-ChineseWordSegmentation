@@ -1,7 +1,7 @@
 CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o: \
- /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Dictionary.cpp \
+ /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Dictionary.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Dictionary.h \
+ /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Dictionary.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

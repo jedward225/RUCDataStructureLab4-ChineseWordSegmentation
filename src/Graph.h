@@ -22,10 +22,9 @@ private:
     void buildGraph();
     void dijkstra();
 
-    std::string sentence;
     std::vector<std::string> aStarKthShortest(int k);
 
-
+    std::string sentence;
     const Dictionary& dictionary;
     std::vector<std::vector<Edge>> adj;
     std::vector<double> dist;

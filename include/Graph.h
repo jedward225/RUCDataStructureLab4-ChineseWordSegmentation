@@ -11,6 +11,7 @@ class Graph {
 public:
     Graph(const std::string& sentence, const Dictionary& dictionary);
     std::vector<std::string> getShortestPath();
+    std::vector<std::string> getKthShortestPath(int k);
 
 private:
     struct Edge {
@@ -21,6 +22,8 @@ private:
     void buildGraph();
     void dijkstra();
 
+    std::vector<std::string> aStarKthShortest(int k);
+
     std::string sentence;
     const Dictionary& dictionary;
     std::vector<std::vector<Edge>> adj;
@@ -28,4 +31,4 @@ private:
     std::vector<size_t> prev;
 };
 
-#endif // GRAPH_H
+#endif

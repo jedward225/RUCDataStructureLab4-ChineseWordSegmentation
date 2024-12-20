@@ -2,6 +2,19 @@
 #include <limits>
 #include <algorithm>
 #include <sstream>
+#include <functional>
+#include <unordered_set>
+
+struct State {
+    double totalCost; // tot = actualCost + heuristicCost
+    double actualCost;
+
+    std::vector<size_t> path;
+
+    bool operator<(const State& other) const {
+        return totalCost > other.totalCost; // 最小堆性质
+    }
+};
 
 Graph::Graph(const std::string& sentence, const Dictionary& dictionary)
     : sentence(sentence), dictionary(dictionary) {
@@ -37,8 +50,10 @@ void Graph::dijkstra() {
     prev.assign(sentence.length() + 1, 0);
     dist[0] = 0;
 
-    // 注意：这里添加了模板参数 std::greater<std::pair<double, size_t>>
-    std::priority_queue<std::pair<double, size_t>, std::vector<std::pair<double, size_t>>, std::greater<std::pair<double, size_t>>> pq;
+    std::priority_queue<std::pair<double, size_t>, 
+                        std::vector<std::pair<double, size_t>>,
+                        std::greater<std::pair<double, size_t>>
+                       > pq;
     pq.push({0, 0});
 
     while (!pq.empty()) {
@@ -55,4 +70,60 @@ void Graph::dijkstra() {
             }
         }
     }
+}
+
+std::vector<std::string> Graph::getKthShortestPath(int k) {
+    return aStarKthShortest(k);
+}
+
+std::vector<std::string> Graph::aStarKthShortest(int k) {
+    using State = struct State;
+
+    auto heuristic = [](size_t current, size_t target) -> double {
+        return static_cast<double>(target - current); // 简单的启发函数：剩余字符数
+    };
+
+    std::priority_queue<State> pq;
+    std::unordered_set<std::string> foundPaths;
+    int foundCount = 0;
+
+    pq.push({heuristic(0, sentence.length()), 0, {0}});
+
+    while (!pq.empty()) {
+        State currentState = pq.top();
+        pq.pop();
+
+        if (currentState.path.back() == sentence.length()) {
+            foundCount++;
+            if (foundCount == k) {
+                std::vector<std::string> segmentedPath;
+                for (size_t i = 0; i < currentState.path.size() - 1; ++i) {
+                    segmentedPath.push_back(sentence.substr(currentState.path[i], currentState.path[i + 1] - currentState.path[i]));
+                }
+                return segmentedPath;
+            }
+            continue;
+        }
+
+        for (const auto& edge : adj[currentState.path.back()]) {
+            std::vector<size_t> newPath = currentState.path;
+            newPath.push_back(edge.to);
+            double newActualCost = currentState.actualCost + edge.cost;
+            double newTotalCost = newActualCost + heuristic(edge.to, sentence.length());
+
+            // 将路径转换为字符串以便于比较
+            std::ostringstream oss;
+            for (auto node : newPath) {
+                oss << node << ",";
+            }
+            std::string pathStr = oss.str();
+
+            if (foundPaths.find(pathStr) == foundPaths.end()) {
+                foundPaths.insert(pathStr);
+                pq.push({newTotalCost, newActualCost, newPath});
+            }
+        }
+    }
+
+    return {}; // 如果没有找到第k条路径，返回空路径
 }

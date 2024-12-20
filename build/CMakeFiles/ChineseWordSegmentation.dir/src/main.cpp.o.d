@@ -1,5 +1,5 @@
 CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o: \
- /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/main.cpp \
+ /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -145,13 +145,17 @@ CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc \
- /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Segmenter.h \
+ /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/fstream \
+ /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/limits \
+ /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Segmenter.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Dictionary.h \
+ /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Dictionary.h \
  /usr/include/c++/11/unordered_map \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/hashtable.h \
@@ -163,7 +167,7 @@ CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
- /mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Graph.h \
+ /mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Graph.h \
  /usr/include/c++/11/queue /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
  /usr/include/c++/11/bits/stl_heap.h /usr/include/c++/11/bits/stl_queue.h \

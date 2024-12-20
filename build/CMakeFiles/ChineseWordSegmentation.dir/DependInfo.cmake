@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Dictionary.cpp" "CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o" "gcc" "CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o.d"
-  "/mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Graph.cpp" "CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.o" "gcc" "CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.o.d"
-  "/mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/Segmenter.cpp" "CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.o" "gcc" "CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.o.d"
-  "/mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/src/main.cpp" "CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o" "gcc" "CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o.d"
+  "/mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Dictionary.cpp" "CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o" "gcc" "CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o.d"
+  "/mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Graph.cpp" "CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.o" "gcc" "CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.o.d"
+  "/mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/Segmenter.cpp" "CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.o" "gcc" "CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.o.d"
+  "/mnt/c/Users/22597/Documents/GitHub/RUCDataStructureLab4-ChineseWordSegmentation/src/main.cpp" "CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o" "gcc" "CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.
