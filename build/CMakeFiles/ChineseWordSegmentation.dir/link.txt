@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ChineseWordSegmentation.dir/src/Dictionary.cpp.o CMakeFiles/ChineseWordSegmentation.dir/src/Graph.cpp.o CMakeFiles/ChineseWordSegmentation.dir/src/Segmenter.cpp.o CMakeFiles/ChineseWordSegmentation.dir/src/main.cpp.o -o ChineseWordSegmentation 

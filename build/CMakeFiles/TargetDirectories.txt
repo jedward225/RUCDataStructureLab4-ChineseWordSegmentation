@@ -1,0 +1,3 @@
+/mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/build/CMakeFiles/ChineseWordSegmentation.dir
+/mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/22597/OneDrive/桌面/ChineseWordSegmentation/build/CMakeFiles/rebuild_cache.dir
