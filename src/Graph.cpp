@@ -125,5 +125,5 @@ std::vector<std::string> Graph::aStarKthShortest(int k) {
         }
     }
 
-    return {}; // 如果没有找到第k条路径，返回空路径
+    return {}; // 如果没有找到，返回空路径
 }
