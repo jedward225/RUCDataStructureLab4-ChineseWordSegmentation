@@ -23,15 +23,20 @@ Graph::Graph(const std::string& sentence, const Dictionary& dictionary)
 
 void Graph::buildGraph() {
     adj.resize(sentence.length() + 1);
-    for (size_t start = 0; start <= sentence.length(); ++start) {
-        for (size_t end = start + 1; end <= sentence.length(); ++end) {
+    size_t sentenceLength = sentence.length();
+    
+    for (size_t start = 0; start <= sentenceLength; ++start) {
+        for (size_t end = start + 1; end <= sentenceLength; ++end) {
             std::string word = sentence.substr(start, end - start);
-            if (dictionary.containsWord(word)) {
-                adj[start].push_back({end, 1.0}); // 权值定为1.0
+
+            if (dictionary.containsWord(word) || dictionary.isPunctuation(word)) {
+                adj[start].push_back({end, 1.0}); // 权值设为 1.0
             }
         }
     }
 }
+
+
 
 std::vector<std::string> Graph::getShortestPath() {
     dijkstra();

@@ -8,7 +8,7 @@ int main(int argc, char* argv[]) {
     if (argc > 1) {
         dictPath = argv[1];
     }
-
+    
     std::cout << "Using dictionary file: " << dictPath << std::endl;
 
     try {
@@ -36,25 +36,18 @@ int main(int argc, char* argv[]) {
 
             if (text == "exit") break;
 
+            std::vector<std::string> result;
             if (choice == 1) {
-                auto result = segmenter.segment(text);
-                for (size_t i = 0; i < result.size(); ++i) {
-                    if (i != 0) std::cout << "/";
-                    std::cout << result[i];
-                }
-                std::cout << std::endl;
+                result = segmenter.segment(text);  // 中文标点符号处理
             } else if (choice == 2) {
-                auto result = segmenter.segmentKthShortest(k, text);
-                if (!result.empty()) {
-                    for (size_t i = 0; i < result.size(); ++i) {
-                        if (i != 0) std::cout << "/";
-                        std::cout << result[i];
-                    }
-                    std::cout << std::endl;
-                } else {
-                    std::cout << "未找到第" << k << "短路径。" << std::endl;
-                }
+                result = segmenter.segmentKthShortest(k, text);
             }
+
+            for (size_t i = 0; i < result.size(); ++i) {
+                if (i != 0) std::cout << "/";
+                std::cout << result[i];
+            }
+            std::cout << std::endl;
         }
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;

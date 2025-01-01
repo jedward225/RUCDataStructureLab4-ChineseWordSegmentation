@@ -1,6 +1,7 @@
 #include "Dictionary.h"
 #include <fstream>
 #include <sstream>
+#include <unordered_set>
 
 void Dictionary::loadFromFile(const std::string& filePath) {
     std::ifstream file(filePath);
@@ -21,4 +22,13 @@ void Dictionary::loadFromFile(const std::string& filePath) {
 
 bool Dictionary::containsWord(const std::string& word) const {
     return wordMap.find(word) != wordMap.end();
+}
+
+const std::unordered_set<std::string> Dictionary::punctuationSet = {
+    "，", "。", "！", "？", "：", "；", "（", "）", "【", "】", "《", "》",
+    "、", "——", "「", "」", "·", "～", "“", "”", "＂", "′", "℃", "‰"
+};
+
+bool Dictionary::isPunctuation(const std::string& word) const {
+    return punctuationSet.find(word) != punctuationSet.end();
 }
